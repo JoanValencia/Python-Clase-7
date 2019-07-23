@@ -1,0 +1,30 @@
+h1 {
+		text-align: center;
+		font-weight: bold;
+		color: #003399;
+	}
+body {
+		text-align: center;
+		background-color:#666699;
+		font-family: Georgia, “Times New Roman”, serif;
+		
+	}
+nav {
+		background-color:#7070db;
+		color:#ffffff;
+		text-align: center;
+		font-family: Arial;
+	}
+table{
+		border:2px solid;
+		border-color:#cccccc;
+		border-radius:15px;
+		margin:2em;
+		padding:1em;
+		text-align: left;
+}
+img{
+		border:2px solid;
+		border-color:#cccccc;
+		border-radius: 60px;
+}

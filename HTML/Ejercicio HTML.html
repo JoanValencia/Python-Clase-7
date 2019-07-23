@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hola Mundo</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+	<nav>
+		
+	</nav>
+		<h1>Hola Mundo en HTML</h1>
+		<hr>
+		<img src="html5.png" alt="HTML 5 Logo" width="200">
+		<p>Asdasdasdasd asd asdasd asdasdasdasd</p>
+		<p>Adajkksudosfbskdfbcsoud kljsfk efnoisfn elfinsdcm xcvnslkn lsifjñlksnvczdjpwefj lsdnlf</p>
+		<table align="center">
+			<tr>
+				<th>Versión</th><th>Manejo</th>
+			</tr>
+			<tr>
+				<td>2.7</td><td>Simple</td>
+			</tr>
+			<tr>
+				<td>3.7</td><td>Objetos</td>
+			</tr>
+		</table>
+		<details>
+		<summary>Vuelo Bogotá "­" Cucuta</summary>
+			<ul>
+				<li>Avianca</li>
+				<li>JK 1234</li>
+				<li>Salida: 4:30 p.m.</li>
+				<li>Duración: 1 h.</li>
+			</ul>
+		</details>
+		<form>
+			Nombre: <input type="text" name="name_control" autofocus required /><br>
+			Correo Electrónico: <input type="email" name="email_control" required /><br>
+			URL: <input type="url" name="url_control" placeholder="Escribe la URL" /><br>
+			Fecha: <input type="date" name="date_control" /><br>
+			Tiempo: <input type="time" name="time_control" /><br>
+			Fecha y hora de nacimiento: <input type="datetime" name="datetime_control" /><br>
+			Mes: <input type="month" name="month_control" /><br>
+			Semana: <input type="week" name="week_control" /><br>
+			Número: <input type="number" name="number_control" min="­10" max="10" value="0" /><br>
+			Intervalo: <input type="range" name="range_control" min="0" max="10" value="0" /> 
+			<output for="range_control" name="range_control_value" >0</output><br>
+			Teléfono: <input type="tel" name="tel_control" /><br>
+			Término de búsqueda: <input type="search" name="search_control" /><br>
+			Color Favorito: <input type="color" name="color_control" /><br>
+			<input type="submit" value="Submit!" />
+		</form> 
+		
+		<script>
+			function draw(){
+				  var ctx = document.querySelector("canvas").getContext("2d");
+				  
+				  ctx.fillStyle = "#ffff00";
+				  ctx.fillRect(10, 10, 50, 50);
+				  
+				  var my_gradient=ctx.createLinearGradient(0,0,0,170);
+				  my_gradient.addColorStop(0,"navy");
+				  my_gradient.addColorStop(1,"white");
+				  ctx.fillStyle=my_gradient;
+				  ctx.fillRect(40,40,70,70);
+			}
+			window.onload = draw;
+		</script>
+			...
+		<canvas></canvas>
+		
+		<a href="acerca.html">Acerca de</a>
+	</body>
+</html>
